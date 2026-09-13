@@ -3,421 +3,108 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>M ULIN NUHA ABDUH</title>
+  <title>M Ulin Nuha Abduh — Neo-Brutalist Portfolio</title>
   <meta name="description" content="Portfolio of M Ulin Nuha Abduh — Geophysical Engineering, Machine Learning, Deep Learning, and Scientific Computing Specialist." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Archivo+Black&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div class="cursor" aria-hidden="true"></div>
-
+  <div class="progress" aria-hidden="true"><span id="progress-bar"></span></div>
   <header class="topbar">
-    <a href="#top" class="logo">ULIN NUHA<span class="blink">_</span></a>
-    <nav class="nav">
-      <a href="#projects">PROJECTS</a>
-      <a href="#experience">EXPERIENCE</a>
-      <a href="#publications">PUBLICATIONS</a>
-      <a href="#honors">HONORS & BIO</a>
-      <a href="#skills">SKILLS</a>
-      <a href="#contact">CONTACT</a>
+    <a href="#top" class="brand"><span class="brand-box">ULIN<b>NUHA_</b></span><span class="brand-sub">Geophysical Eng. @ ITS<br/>ML // Scientific Computing</span></a>
+    <nav class="nav" aria-label="Sections">
+      <a href="#projects">Work</a>
+      <a href="#experience">Experience</a>
+      <a href="#publications">Papers</a>
+      <a href="#honors">Awards</a>
+      <a href="#skills">Stack</a>
     </nav>
     <div class="topbar-actions">
-      <a href="CV_M Ulin Nuha Abduh.pdf" target="_blank" class="cv-btn-top">[ CV ↗ ]</a>
-      <button id="theme" class="theme-btn" type="button">[ INVERT ]</button>
+      <a href="CV_M Ulin Nuha Abduh.pdf" target="_blank" class="btn btn-yellow">CV &#8599;</a>
+      <button id="theme" class="theme-btn" type="button">Dark</button>
     </div>
   </header>
-
   <main id="top">
-    <!-- HERO -->
     <section class="hero">
-      <div class="marquee" aria-hidden="true">
-        <span>★ MACHINE LEARNING & GEOPHYSICS ★ DEEP LEARNING (CNN / LSTM) ★ SCIENTIFIC COMPUTING ★ PYTORCH & LIGHTGBM ★ Q1 JOURNAL PUBLISHED ★ HACKATHON CHAMPION ★&nbsp;</span>
-        <span>★ MACHINE LEARNING & GEOPHYSICS ★ DEEP LEARNING (CNN / LSTM) ★ SCIENTIFIC COMPUTING ★ PYTORCH & LIGHTGBM ★ Q1 JOURNAL PUBLISHED ★ HACKATHON CHAMPION ★&nbsp;</span>
-      </div>
-
       <div class="hero-grid">
-        <h1 class="hero-title">
-          ULIN<br />NUHA<span class="dot">.</span>
-        </h1>
-        <div class="hero-meta">
-          <p class="tag">ML & SCIENTIFIC COMPUTING</p>
-          <p class="tag">GEOPHYSICAL ENG. @ ITS</p>
-          <p class="tag">SURABAYA, INDONESIA</p>
+        <div class="hero-main">
+          <span class="hero-pill">&#9733; ML x Geophysics &mdash; Surabaya, ID</span>
+          <h1 class="hero-title">Build loud.<br/><span class="stroke">Ship louder.</span><br/><span class="hl">Science first.</span></h1>
+          <p class="hero-desc">Yo! I&rsquo;m <strong>Ulin Nuha</strong> &mdash; Geophysical Engineering student &amp; computational developer crafting <mark>machine learning</mark>, subsurface signal processing &amp; scientific software.</p>
+          <div class="hero-cta">
+            <a href="#projects" class="btn btn-ink">See my work &#9660;</a>
+            <a href="CV_M Ulin Nuha Abduh.pdf" target="_blank" class="btn btn-pink">View CV &#8599;</a>
+            <a href="https://linkedin.com/in/mulinnuhaabduh" target="_blank" rel="noopener noreferrer" class="btn btn-blue">LinkedIn &#8599;</a>
+          </div>
+        </div>
+        <div class="hero-side">
+          <div class="id-card"><h2>&#9679; ID Card</h2><ul><li><b>BASE</b>Surabaya, Indonesia</li><li><b>STACK</b>PyTorch / LightGBM</li><li><b>FOCUS</b>CNN / LSTM / BiRNN</li><li><b>PROOF</b>Q1 Journal, 2025</li></ul></div>
+          <div class="rating-card"><div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p>Hackathon champ. Published. Shipped.</p><small>Verified human &mdash; <span id="edition-date">2026</span></small></div>
         </div>
       </div>
-
-      <p class="hero-statement">
-        Geophysical Engineering student & computational developer specializing in applied <mark>machine learning</mark>, subsurface signal processing, and scientific software engineering.
-      </p>
-
-      <div class="hero-cta-group">
-        <a href="#projects" class="cta">EXPLORE WORK ↓</a>
-        <a href="CV_M Ulin Nuha Abduh.pdf" target="_blank" class="cta cta-secondary">VIEW CV ↗</a>
-        <a href="https://linkedin.com/in/mulinnuhaabduh" target="_blank" rel="noopener noreferrer" class="cta cta-secondary">LINKEDIN ↗</a>
+      <div class="stats">
+        <div class="stat"><strong>58.8%</strong><span>SNR boost — MT denoiser</span></div>
+        <div class="stat"><strong>7 projects</strong><span>Shipped &amp; cited</span></div>
+        <div class="stat"><strong>280+ mentored</strong><span>Students @ ITS</span></div>
       </div>
+      <div class="marquee" aria-hidden="true"><span class="marquee-inner">&#9733; Machine Learning &amp; Geophysics &#9733; CNN / LSTM Denoising &#9733; PyTorch &amp; LightGBM &#9733; Scientific Computing &#9733; Q1 Journal Published &#9733; Hackathon Champion &#9733; Machine Learning &amp; Geophysics &#9733; CNN / LSTM Denoising &#9733; PyTorch &amp; LightGBM &#9733; Scientific Computing &#9733; Q1 Journal Published &#9733; Hackathon Champion &#9733;&nbsp;</span></div>
     </section>
-
-    <!-- SECTION 01: PROJECTS -->
     <section id="projects" class="section">
-      <h2 class="section-title"><span>01</span> FEATURED PROJECTS & SOFTWARE</h2>
+      <div class="sec-head"><span class="sec-num">01</span><h2 class="sec-title">Featured <em>work</em></h2><p class="sec-note">7 loud projects — software, models &amp; pipelines. Click through, make some noise.</p></div>
       <div class="work-grid">
-        <article class="card" data-tilt>
-          <div class="card-head"><span class="idx">001</span><span class="year">2024 – 2025</span></div>
-          <h3>LITHOQUANT</h3>
-          <p class="card-sub">Desktop Petrophysical Analysis Suite</p>
-          <p>A full-featured PyQt5 desktop application for oil & gas well-log evaluation. Features 9 calculation modules (Vsh, Porosity, Sw, Permeability, Net Pay, Pickett Plot), multi-format LAS/Excel export, and an interactive Matplotlib QC tool for curve despiking, smoothing, and interpolation.</p>
-          <ul class="stack">
-            <li>PYQT5</li>
-            <li>PYTHON</li>
-            <li>MATPLOTLIB</li>
-            <li>LASIO</li>
-            <li>PANDAS</li>
-          </ul>
-          <a class="card-link" href="https://lithoquant.com" target="_blank" rel="noopener noreferrer">VISIT LITHOQUANT.COM ↗</a>
-        </article>
-
-        <article class="card" data-tilt>
-          <div class="card-head"><span class="idx">002</span><span class="year">2025</span></div>
-          <h3>ALLTOOLKIT</h3>
-          <p class="card-sub">Privacy-First In-Browser Media & Dev Utilities</p>
-          <p>A high-performance web platform bundling 30+ client-side tools for AI background removal, image optimization, PDF processing (merge/split/OCR), media transcoding via FFmpeg WASM, and developer utilities. All computation runs 100% in-browser without server uploads.</p>
-          <ul class="stack">
-            <li>NEXT.JS 14</li>
-            <li>TYPESCRIPT</li>
-            <li>TAILWIND CSS</li>
-            <li>WASM</li>
-            <li>FFMPEG</li>
-            <li>TESSERACT.JS</li>
-          </ul>
-          <a class="card-link" href="https://all-toolkit.vercel.app" target="_blank" rel="noopener noreferrer">VISIT All Toolkit ↗</a>
-        </article>
-
-        <article class="card" data-tilt>
-          <div class="card-head"><span class="idx">003</span><span class="year">2025</span></div>
-          <h3>ATS CV BUILDER</h3>
-          <p class="card-sub">ATS-Optimized Resume Engine & Heuristic Analyzer</p>
-          <p>A web platform for crafting parseable resumes with real-time A4 pagination (never splitting blocks across page breaks). Includes a 0–100 ATS scoring engine, job description keyword matcher, 3 single-column templates, and local-first JSON project import/export.</p>
-          <ul class="stack">
-            <li>NEXT.JS 14</li>
-            <li>TYPESCRIPT</li>
-            <li>ZUSTAND</li>
-            <li>TAILWIND CSS</li>
-            <li>ATS ANALYZER</li>
-          </ul>
-          <a class="card-link" href="https://ats-cv-builder-sable.vercel.app" target="_blank" rel="noopener noreferrer">VISIT ATS CV Builder ↗</a>
-        </article>
-
-        <article class="card" data-tilt>
-          <div class="card-head"><span class="idx">004</span><span class="year">2025</span></div>
-          <h3>SPEAKING APPS</h3>
-          <p class="card-sub">AI Voice Tutor & Language Learning Android App</p>
-          <p>An offline-first native Android application with Jetpack Compose, Room, and Hilt. Integrates Qwen LLM for real-time speech conversation, speech recognition (ASR), pronunciation scoring, spaced-repetition flashcards, and background daily study reminders across 6 languages.</p>
-          <ul class="stack">
-            <li>KOTLIN</li>
-            <li>JETPACK COMPOSE</li>
-            <li>ROOM DB</li>
-            <li>HILT</li>
-            <li>QWEN LLM</li>
-            <li>ASR / TTS</li>
-          </ul>
-        </article>
-
-        <article class="card" data-tilt>
-          <div class="card-head"><span class="idx">005</span><span class="year">2025</span></div>
-          <h3>MT DEEP DENOISER</h3>
-          <p class="card-sub">Neural Signal Enhancement Pipeline</p>
-          <p>End-to-end PyTorch deep learning framework utilizing CNN and LSTM architectures to filter heavy electromagnetic cultural noise from Magnetotelluric field data, boosting signal-to-noise ratio by 58.8% with a 3x runtime speedup over conventional filtering baselines.</p>
-          <ul class="stack">
-            <li>PYTORCH</li>
-            <li>CNN / LSTM</li>
-            <li>DEEP LEARNING</li>
-            <li>SIGNAL PROCESSING</li>
-          </ul>
-          <a class="card-link" href="https://hefjournal.org/index.php/HEF/article/view/442" target="_blank" rel="noopener noreferrer">VIEW RESEARCH PAPER ↗</a>
-        </article>
-
-        <article class="card" data-tilt>
-          <div class="card-head"><span class="idx">006</span><span class="year">2025</span></div>
-          <h3>WELL-LOG RECONSTRUCTOR</h3>
-          <p class="card-sub">Missing Curve Synthesis Engine</p>
-          <p>Machine learning modeling pipeline combining LightGBM and Bidirectional RNNs to synthesize missing subsurface petrophysical logs across oil fields, outperforming baseline models by up to 6.5x in predictive accuracy.</p>
-          <ul class="stack">
-            <li>LIGHTGBM</li>
-            <li>BIRNN</li>
-            <li>SCIKIT-LEARN</li>
-            <li>GEOSCIENCE AI</li>
-          </ul>
-          <a class="card-link" href="https://ieeexplore.ieee.org/document/11081019" target="_blank" rel="noopener noreferrer">VIEW IEEE PAPER ↗</a>
-        </article>
-
-        <article class="card" data-tilt>
-          <div class="card-head"><span class="idx">007</span><span class="year">2025</span></div>
-          <h3>KUPE SEISMIC DASHBOARD</h3>
-          <p class="card-sub">Automated Reservoir Processing Toolkit</p>
-          <p>An interactive Streamlit application built on top of tNavigator seismic interpretation workflows (well-seismic tie, horizon picking, seismic attributes) to streamline data visualization and automate new-well petrophysical processing for the Kupe South field.</p>
-          <ul class="stack">
-            <li>STREAMLIT</li>
-            <li>TNAVIGATOR</li>
-            <li>PYTHON</li>
-            <li>SEISMIC ATTRIBUTES</li>
-          </ul>
-        </article>
+        <article class="card reveal"><div class="card-top"><span class="card-idx">001</span><span class="card-year">2024-25</span></div><h3>LithoQuant</h3><p class="card-sub">Desktop petrophysical analysis suite</p><p>A full-featured PyQt5 desktop app for oil &amp; gas well-log evaluation. 9 modules (Vsh, Porosity, Sw, Permeability, Net Pay, Pickett Plot), LAS/Excel export, interactive Matplotlib QC tool for despiking, smoothing &amp; interpolation.</p><ul class="stack"><li>PyQt5</li><li>Python</li><li>Matplotlib</li><li>LASio</li><li>Pandas</li></ul><a class="card-link" href="https://lithoquant.com" target="_blank" rel="noopener noreferrer">Visit site &#8599;</a></article>
+        <article class="card reveal"><div class="card-top"><span class="card-idx">002</span><span class="card-year">2025</span></div><h3>AllToolkit</h3><p class="card-sub">Privacy-first in-browser utilities</p><p>30+ client-side tools: AI background removal, image optimization, PDF merge/split/OCR, FFmpeg WASM transcoding &amp; dev utilities. 100% in-browser, zero uploads.</p><ul class="stack"><li>Next.js 14</li><li>TypeScript</li><li>Tailwind</li><li>WASM</li><li>FFmpeg</li><li>Tesseract.js</li></ul><a class="card-link" href="https://all-toolkit.vercel.app" target="_blank" rel="noopener noreferrer">Visit site &#8599;</a></article>
+        <article class="card reveal"><div class="card-top"><span class="card-idx">003</span><span class="card-year">2025</span></div><h3>ATS CV Builder</h3><p class="card-sub">Resume engine &amp; heuristic analyzer</p><p>Parseable resumes with real-time A4 pagination. 0-100 ATS scoring engine, JD keyword matcher, 3 single-column templates, local-first JSON import/export.</p><ul class="stack"><li>Next.js 14</li><li>TypeScript</li><li>Zustand</li><li>Tailwind</li><li>ATS analyzer</li></ul><a class="card-link" href="https://ats-cv-builder-sable.vercel.app" target="_blank" rel="noopener noreferrer">Visit site &#8599;</a></article>
+        <article class="card reveal"><div class="card-top"><span class="card-idx">004</span><span class="card-year">2025</span></div><h3>Speaking Apps</h3><p class="card-sub">AI voice tutor &amp; Android app</p><p>Offline-first native Android app (Compose, Room, Hilt). Qwen LLM conversation, ASR, pronunciation scoring, spaced-repetition flashcards &amp; daily reminders across 6 languages.</p><ul class="stack"><li>Kotlin</li><li>Compose</li><li>Room DB</li><li>Hilt</li><li>Qwen LLM</li><li>ASR/TTS</li></ul></article>
+        <article class="card reveal"><div class="card-top"><span class="card-idx">005</span><span class="card-year">2025 / Q1</span></div><h3>MT Deep Denoiser</h3><p class="card-sub">Neural signal-enhancement pipeline</p><p>End-to-end PyTorch CNN+LSTM framework filtering cultural noise from Magnetotelluric data — 58.8% SNR boost, 3x speedup over classic filters.</p><ul class="stack"><li>PyTorch</li><li>CNN/LSTM</li><li>Deep learning</li><li>Signal proc.</li></ul><a class="card-link" href="https://hefjournal.org/index.php/HEF/article/view/442" target="_blank" rel="noopener noreferrer">View paper &#8599;</a></article>
+        <article class="card reveal"><div class="card-top"><span class="card-idx">006</span><span class="card-year">2025 / IEEE</span></div><h3>Well-Log Reconstructor</h3><p class="card-sub">Missing-curve synthesis engine</p><p>LightGBM + BiRNN pipeline synthesizing missing petrophysical logs — up to 6.5x better than baselines.</p><ul class="stack"><li>LightGBM</li><li>BiRNN</li><li>Scikit-learn</li><li>Geoscience AI</li></ul><a class="card-link" href="https://ieeexplore.ieee.org/document/11081019" target="_blank" rel="noopener noreferrer">View paper &#8599;</a></article>
+        <article class="card reveal"><div class="card-top"><span class="card-idx">007</span><span class="card-year">2025</span></div><h3>Kupe Seismic Dashboard</h3><p class="card-sub">Automated reservoir-processing toolkit</p><p>Interactive Streamlit app on tNavigator workflows (well-seismic tie, horizon picking, attributes) automating new-well petrophysics for Kupe South field.</p><ul class="stack"><li>Streamlit</li><li>tNavigator</li><li>Python</li><li>Attributes</li></ul></article>
+        <blockquote class="shout reveal"><p>Raw data in. Loud results out. No boring software allowed.</p><cite>— House rule</cite></blockquote>
       </div>
     </section>
-
-    <!-- SECTION 02: EXPERIENCE -->
     <section id="experience" class="section">
-      <h2 class="section-title"><span>02</span> WORK & RESEARCH EXPERIENCE</h2>
+      <div class="sec-head"><span class="sec-num">02</span><h2 class="sec-title">Experi<em>ence</em></h2><p class="sec-note">4 gigs, 1 rule: turn noisy measurements into reliable software.</p></div>
       <div class="exp-list">
-        <article class="exp-item">
-          <div class="exp-meta">
-            <span class="exp-period">DEC 2024 – DEC 2025</span>
-            <h3 class="exp-company">PETROPHYSICS LABORATORY</h3>
-            <span class="exp-loc">Surabaya, Indonesia</span>
-          </div>
-          <div class="exp-content">
-            <h4 class="exp-role">Desktop Software Engineer (<a href="https://lithoquant.com" target="_blank" rel="noopener noreferrer" style="border-bottom: 2px solid var(--accent);">LithoQuant ↗</a>)</h4>
-            <ul class="exp-bullets">
-              <li>Engineered the desktop GUI and computation backend across 9 modular petrophysical analysis components.</li>
-              <li>Implemented automated calculation engines for shale volume, effective porosity, water saturation, permeability, and cutoffs.</li>
-              <li>Developed multi-well Matplotlib interactive plotting tools with real-time despiking, smoothing, and session state recovery.</li>
-              <li>Built robust LAS/ASCII/Excel data parsing and multi-format export pipelines.</li>
-            </ul>
-          </div>
-        </article>
-
-        <article class="exp-item">
-          <div class="exp-meta">
-            <span class="exp-period">NOV 2023 – DEC 2025</span>
-            <h3 class="exp-company">GEOPHYSICAL ENGINEERING ITS</h3>
-            <span class="exp-loc">Surabaya, Indonesia</span>
-          </div>
-          <div class="exp-content">
-            <h4 class="exp-role">Teaching Assistant (Machine Learning & Computation)</h4>
-            <ul class="exp-bullets">
-              <li><strong>Machine Learning (Capita Selecta 1):</strong> Mentored 110+ students across two cohorts (2024 & 2025), authoring hands-on lab modules applying ML algorithms to geophysical datasets.</li>
-              <li><strong>Geophysical Computation:</strong> Instructed 170+ students in Python and MATLAB scientific programming across two terms, delivering curriculum on numerical methods and subsurface modeling.</li>
-            </ul>
-          </div>
-        </article>
-
-        <article class="exp-item">
-          <div class="exp-meta">
-            <span class="exp-period">JAN 2025 – MAR 2025</span>
-            <h3 class="exp-company">ROCK FLOW DYNAMICS</h3>
-            <span class="exp-loc">South Jakarta, Indonesia</span>
-          </div>
-          <div class="exp-content">
-            <h4 class="exp-role">Seismic Interpreter</h4>
-            <ul class="exp-bullets">
-              <li>Conducted structural seismic interpretation and reservoir characterization of the Kupe South field (New Zealand) using tNavigator.</li>
-              <li>Executed synthetic seismogram generation, well-seismic ties, horizon & fault mapping, and seismic attribute extractions.</li>
-              <li>Developed an automated Streamlit workflow to accelerate routine well-log analysis and report generation.</li>
-            </ul>
-          </div>
-        </article>
-
-        <article class="exp-item">
-          <div class="exp-meta">
-            <span class="exp-period">MAR 2025 – APR 2025</span>
-            <h3 class="exp-company">CODVEDA TECHNOLOGIES</h3>
-            <span class="exp-loc">India (Remote)</span>
-          </div>
-          <div class="exp-content">
-            <h4 class="exp-role">Python Development Intern</h4>
-            <ul class="exp-bullets">
-              <li>Designed and optimized Django ORM schemas for scalable data extraction and persistence.</li>
-              <li>Engineered automated web scraping pipelines and integrated RESTful endpoints with comprehensive validation.</li>
-              <li>Implemented secure file encryption/decryption routines using the Python Cryptography library.</li>
-            </ul>
-          </div>
-        </article>
+        <article class="exp reveal"><div class="exp-date"><b>Dec 24 — Dec 25</b><p class="exp-org">Petrophysics Laboratory</p><p class="exp-loc">Surabaya, Indonesia</p></div><div><h4>Desktop Software Engineer (<a href="https://lithoquant.com" target="_blank" rel="noopener noreferrer">LithoQuant &#8599;</a>)</h4><ul><li>GUI + computation backend across 9 modular petrophysical components.</li><li>Automated engines: shale volume, porosity, saturation, permeability, cutoffs.</li><li>Multi-well Matplotlib plotting with despiking, smoothing &amp; session recovery.</li><li>LAS/ASCII/Excel parsing + multi-format export pipelines.</li></ul></div></article>
+        <article class="exp reveal"><div class="exp-date"><b>Nov 23 — Dec 25</b><p class="exp-org">Geophysical Eng. ITS</p><p class="exp-loc">Surabaya, Indonesia</p></div><div><h4>Teaching Assistant, ML &amp; Computation</h4><ul><li><strong>Machine Learning:</strong> 110+ students, 2024 &amp; 2025 cohorts, hands-on geophysics labs.</li><li><strong>Geophysical Computation:</strong> 170+ students, Python &amp; MATLAB, numerical methods &amp; modeling.</li></ul></div></article>
+        <article class="exp reveal"><div class="exp-date"><b>Jan 25 — Mar 25</b><p class="exp-org">Rock Flow Dynamics</p><p class="exp-loc">South Jakarta, Indonesia</p></div><div><h4>Seismic Interpreter</h4><ul><li>Structural interpretation of Kupe South field (NZ) in tNavigator.</li><li>Synthetics, well-seismic ties, horizon &amp; fault mapping, attributes.</li><li>Streamlit workflow for faster well-log analysis &amp; reporting.</li></ul></div></article>
+        <article class="exp reveal"><div class="exp-date"><b>Mar 25 — Apr 25</b><p class="exp-org">Codveda Technologies</p><p class="exp-loc">India (Remote)</p></div><div><h4>Python Development Intern</h4><ul><li>Django ORM schemas for scalable extraction &amp; persistence.</li><li>Scraping pipelines + validated RESTful endpoints.</li><li>Secure file encryption with Python Cryptography.</li></ul></div></article>
       </div>
     </section>
-
-    <!-- SECTION 03: PUBLICATIONS -->
     <section id="publications" class="section">
-      <h2 class="section-title"><span>03</span> PUBLICATIONS</h2>
+      <div class="sec-head"><span class="sec-num">03</span><h2 class="sec-title">Hot <em>papers</em></h2><p class="sec-note">Peer-reviewed, cited &amp; loud. Two 2025 bangers.</p></div>
       <div class="pub-list">
-        <article class="pub-card">
-          <span class="pub-badge">Q1 JOURNAL ARTICLE — 2025</span>
-          <h3 class="pub-title">Enhancing Magnetotelluric Data Quality Using Deep Learning-Based Denoising Models: A Study of CNN and LSTM</h3>
-          <p class="pub-authors">
-            Widya Utama, Maman Hermana, Dwa D Warnana, Wien Lestari, Muhammad NA Zakariah, Sherly A Garini, Rista F Indriani, Dhea P Novian Putra, <strong>M Ulin Nuha Abduh</strong>, Alif NF Insani, Dandi Syahtia Pratama, Khairul Arifin Mohd Noh, Abdul Halim Abdul Latiff.
-          </p>
-          <p class="pub-venue"><em>Journal of Human, Earth, and Future</em>, 2025</p>
-          <a class="pub-link" href="https://hefjournal.org/index.php/HEF/article/view/442" target="_blank" rel="noopener noreferrer">READ JOURNAL ARTICLE (HEF) ↗</a>
-        </article>
-
-        <article class="pub-card">
-          <span class="pub-badge">IEEE CONFERENCE PROCEEDINGS — 2025</span>
-          <h3 class="pub-title">Reconstructing Missing Well-Log Data with LightGBM and BiRNN in Oil Fields</h3>
-          <p class="pub-authors">
-            Sherly Ardhya Garini, Ary Mazharuddin Shiddiqi, Widya Utama, <strong>M Ulin Nuha Abduh</strong>.
-          </p>
-          <p class="pub-venue"><em>2025 International Conference on Smart Computing, IoT and Machine Learning (SIML)</em>, IEEE, 2025</p>
-          <a class="pub-link" href="https://ieeexplore.ieee.org/document/11081019" target="_blank" rel="noopener noreferrer">READ PROCEEDINGS (IEEE XPLORE) ↗</a>
-        </article>
+        <article class="pub reveal"><span class="pub-badge">Q1 Journal — 2025</span><h3>Enhancing Magnetotelluric Data Quality Using Deep Learning-Based Denoising Models: A Study of CNN and LSTM</h3><p class="pub-auth">Widya Utama, Maman Hermana, Dwa D Warnana, Wien Lestari, Muhammad NA Zakariah, Sherly A Garini, Rista F Indriani, Dhea P Novian Putra, <strong>M Ulin Nuha Abduh</strong>, Alif NF Insani, Dandi Syahtia Pratama, Khairul Arifin Mohd Noh, Abdul Halim Abdul Latiff.</p><p class="pub-venue">Journal of Human, Earth, and Future, 2025</p><div><a class="card-link" href="https://hefjournal.org/index.php/HEF/article/view/442" target="_blank" rel="noopener noreferrer">Read paper &#8599;</a></div></article>
+        <article class="pub reveal"><span class="pub-badge">IEEE — 2025</span><h3>Reconstructing Missing Well-Log Data with LightGBM and BiRNN in Oil Fields</h3><p class="pub-auth">Sherly Ardhya Garini, Ary Mazharuddin Shiddiqi, Widya Utama, <strong>M Ulin Nuha Abduh</strong>.</p><p class="pub-venue">2025 Int. Conf. on Smart Computing, IoT and Machine Learning (SIML), IEEE, 2025</p><div><a class="card-link" href="https://ieeexplore.ieee.org/document/11081019" target="_blank" rel="noopener noreferrer">Read paper &#8599;</a></div></article>
       </div>
     </section>
-
-    <!-- SECTION 04: HONORS & EDUCATION -->
     <section id="honors" class="section">
-      <h2 class="section-title"><span>04</span> HONORS & EDUCATION</h2>
-      <div class="split-grid">
-        <div class="box-panel">
-          <h3 class="panel-title">HONORS & AWARDS</h3>
-          <ul class="award-list">
-            <li class="award-item">
-              <div class="award-name">🏆 Hackathon Champion — ML in Geoscience</div>
-              <div class="award-org">HAGI & Microsoft Indonesia (2024)</div>
-            </li>
-            <li class="award-item">
-              <div class="award-name">🥈 2nd Place — Scientific Paper Competition</div>
-              <div class="award-org">Geopoint IMG-ITB (2024)</div>
-            </li>
-            <li class="award-item">
-              <div class="award-name">🌐 Student Member</div>
-              <div class="award-org">Indonesian Association of Geophysicists (HAGI) — 2023</div>
-            </li>
-          </ul>
-        </div>
-
-        <div class="box-panel">
-          <h3 class="panel-title">EDUCATION & LANGUAGES</h3>
-          <div class="award-item" style="border-left-color: var(--fg); margin-bottom: 14px;">
-            <div class="award-name">INSTITUT TEKNOLOGI SEPULUH NOPEMBER (ITS)</div>
-            <div class="award-org">Bachelor's Degree, Geophysical Engineering (2022 – 2026)</div>
-          </div>
-          <h4 style="font-family: 'Archivo Black', sans-serif; font-size: 1rem; margin-top: 6px;">LANGUAGES</h4>
-          <ul class="award-list">
-            <li class="award-item">
-              <div class="award-name">Indonesian (Native)</div>
-            </li>
-            <li class="award-item">
-              <div class="award-name">English (Professional Working Proficiency)</div>
-            </li>
-            <li class="award-item">
-              <div class="award-name">Javanese (Native)</div>
-            </li>
-          </ul>
-        </div>
+      <div class="sec-head"><span class="sec-num">04</span><h2 class="sec-title">Awards <em>+ school</em></h2></div>
+      <div class="split">
+        <div class="panel panel-a reveal"><h3>Hall of fame</h3><div class="award"><strong>Hackathon Champion — ML in Geoscience</strong><span>HAGI &amp; Microsoft Indonesia (2024)</span></div><div class="award"><strong>2nd Place — Scientific Paper Competition</strong><span>Geopoint IMG-ITB (2024)</span></div><div class="award"><strong>Student Member</strong><span>Indonesian Assoc. of Geophysicists (HAGI) — 2023</span></div></div>
+        <div class="panel panel-b reveal"><h3>School</h3><div class="award"><strong>Institut Teknologi Sepuluh Nopember</strong><span>Bachelor&apos;s, Geophysical Engineering (2022 — 2026)</span></div><div class="award"><strong>Indonesian (Native)</strong></div><div class="award"><strong>English (Professional)</strong></div><div class="award"><strong>Javanese (Native)</strong></div></div>
       </div>
     </section>
-
-    <!-- SECTION 05: SKILLS & TOOLKIT -->
     <section id="skills" class="section">
-      <h2 class="section-title"><span>05</span> TECHNICAL TOOLKIT</h2>
-      <div class="about-grid">
-        <div class="about-bio">
-          <p>
-            My work focuses on bridging physics-based geoscience with modern deep learning and robust software engineering.
-          </p>
-          <p>
-            From training neural architectures on noisy subsurface measurements to engineering modular desktop suites for petrophysicists and mentoring future engineers, I prioritize numerical precision, modular design, and reliable performance.
-          </p>
-        </div>
-
-        <div class="skills-wrapper">
-          <div class="skills-category">
-            <h4>MACHINE LEARNING & AI</h4>
-            <div class="skill-tags">
-              <span>Python</span>
-              <span>PyTorch</span>
-              <span>LightGBM</span>
-              <span>CNN / LSTM / BiRNN</span>
-              <span>Scikit-Learn</span>
-              <span>Qwen LLM Integration</span>
-              <span>ASR & Speech Recognition</span>
-              <span>Signal Denoising</span>
-            </div>
-          </div>
-
-          <div class="skills-category">
-            <h4>WEB & MOBILE DEVELOPMENT</h4>
-            <div class="skill-tags">
-              <span>Next.js 14 (App Router)</span>
-              <span>React & TypeScript</span>
-              <span>Tailwind CSS</span>
-              <span>Zustand</span>
-              <span>Kotlin & Jetpack Compose</span>
-              <span>Android SDK & Room DB</span>
-              <span>Hilt (DI)</span>
-              <span>WebAssembly (WASM / FFmpeg)</span>
-              <span>PyQt5 (Desktop GUI)</span>
-              <span>Django & REST APIs</span>
-              <span>Streamlit</span>
-            </div>
-          </div>
-
-          <div class="skills-category">
-            <h4>GEOSCIENCE & COMPUTING</h4>
-            <div class="skill-tags">
-              <span>Well-Log Analysis</span>
-              <span>Petrophysics</span>
-              <span>Seismic Interpretation</span>
-              <span>tNavigator</span>
-              <span>Magnetotellurics</span>
-              <span>LASio</span>
-              <span>NumPy & Pandas</span>
-              <span>Matplotlib</span>
-              <span>Git / GitHub</span>
-            </div>
-          </div>
-        </div>
+      <div class="sec-head"><span class="sec-num">05</span><h2 class="sec-title">The <em>stack</em></h2><p class="sec-note">Physics brains + deep-learning muscle + road-tested code.</p></div>
+      <div class="two">
+        <div class="about reveal"><p>My work lives between training neural nets on noisy subsurface data and building modular desktop suites for petrophysicists — tuned for precision, modularity &amp; speed.</p><p class="foot">★ Set in Archivo Black + Space Grotesk ★ Computed in Python</p></div>
+        <div class="tools"><div class="tool reveal"><h4>ML &amp; AI</h4><ul class="stack"><li>Python</li><li>PyTorch</li><li>LightGBM</li><li>CNN/LSTM/BiRNN</li><li>Scikit-Learn</li><li>Qwen LLM</li><li>ASR &amp; Speech</li><li>Denoising</li></ul></div><div class="tool reveal"><h4>Web &amp; Mobile</h4><ul class="stack"><li>Next.js 14</li><li>React &amp; TS</li><li>Tailwind</li><li>Zustand</li><li>Kotlin &amp; Compose</li><li>Room DB</li><li>Hilt</li><li>WASM/FFmpeg</li><li>PyQt5</li><li>Django &amp; REST</li><li>Streamlit</li></ul></div><div class="tool reveal"><h4>Geoscience</h4><ul class="stack"><li>Well-Log Analysis</li><li>Petrophysics</li><li>Seismic Interp.</li><li>tNavigator</li><li>Magnetotellurics</li><li>LASio</li><li>NumPy &amp; Pandas</li><li>Matplotlib</li><li>Git/GitHub</li></ul></div></div>
       </div>
     </section>
-
-    <!-- SECTION 06: CONTACT -->
-    <section id="contact" class="section contact">
-      <h2 class="section-title"><span>06</span> CONTACT</h2>
-      <p class="contact-line">LET'S CONNECT & <mark>COLLABORATE</mark>.</p>
-      <div class="contact-grid">
-        <a class="contact-box" href="mailto:mulinuhaa@gmail.com">
-          <span>EMAIL</span>
-          mulinuhaa@gmail.com
-        </a>
-        <a class="contact-box" href="tel:+6281383991971">
-          <span>PHONE / WHATSAPP</span>
-          +62 813-8399-1971
-        </a>
-        <a class="contact-box" href="https://linkedin.com/in/mulinnuhaabduh" target="_blank" rel="noopener noreferrer">
-          <span>LINKEDIN</span>
-          in/mulinnuhaabduh ↗
-        </a>
-        <a class="contact-box" href="CV_M Ulin Nuha Abduh.pdf" target="_blank">
-          <span>CURRICULUM VITAE</span>
-          Click This! ↗
-        </a>
-      </div>
-      <form id="contact-form" class="form" action="https://api.web3forms.com/submit" method="POST">
-        <!-- Web3Forms Config -->
-        <input type="hidden" name="access_key" value="fd0296f4-645f-444c-9f4c-0058bbd2aa6f" id="web3forms-key" />
-        <input type="hidden" name="subject" value="New Portfolio Message from M Ulin Nuha Abduh Website" />
-        <input type="hidden" name="from_name" value="Portfolio Contact Form" />
-        <input type="checkbox" name="botcheck" style="display: none;" />
-
-        <label>YOUR NAME<input type="text" name="name" placeholder="WHO ARE YOU?" required /></label>
-        <label>YOUR EMAIL<input type="email" name="email" placeholder="WHERE DO I REPLY?" required /></label>
-        <label>MESSAGE<textarea name="message" rows="4" placeholder="HOW CAN WE COLLABORATE?" required></textarea></label>
-        
-        <div class="form-footer">
-          <button type="submit" class="submit">SEND MESSAGE ►</button>
-          <div id="form-result" class="form-result" aria-live="polite"></div>
+    <section id="contact" class="section">
+      <div class="contact-wrap">
+        <div class="contact-top"><span>06 — Say hello</span><span>No spam, only signal</span></div>
+        <div class="contact-inner">
+          <div class="reveal"><h2 class="contact-big">Let&rsquo;s make <span>noise</span> together.</h2><p style="margin-top:10px;font-weight:600">Open for collabs, gigs &amp; mentoring — I reply fast.</p><ul class="addr"><li><a href="mailto:mulinuhaa@gmail.com"><span>Email</span>mulinuhaa@gmail.com</a></li><li><a href="tel:+6281383991971"><span>Phone/WA</span>+62 813-8399-1971</a></li><li><a href="https://linkedin.com/in/mulinnuhaabduh" target="_blank" rel="noopener noreferrer"><span>LinkedIn</span>in/mulinnuhaabduh &#8599;</a></li><li><a href="CV_M Ulin Nuha Abduh.pdf" target="_blank"><span>CV</span>Curriculum Vitae &#8599;</a></li></ul></div>
+          <form id="contact-form" class="form reveal" action="https://api.web3forms.com/submit" method="POST"><h3>Drop a message</h3><input type="hidden" name="access_key" value="fd0296f4-645f-444c-9f4c-0058bbd2aa6f" /><input type="hidden" name="subject" value="New Portfolio Message from M Ulin Nuha Abduh Website" /><input type="hidden" name="from_name" value="Portfolio Contact Form" /><input type="checkbox" name="botcheck" style="display:none" /><label class="field">Your name<input type="text" name="name" placeholder="Who dis?" required /></label><label class="field">Your email<input type="email" name="email" placeholder="Where do I reply?" required /></label><label class="field">Message<textarea name="message" rows="4" placeholder="What are we building?" required></textarea></label><button type="submit" class="submit">Send it &#8594;</button><div id="form-result" class="form-result" aria-live="polite"></div></form>
         </div>
-      </form>
+      </div>
     </section>
   </main>
-
-  <footer class="footer">
-    <span>© 2026 M ULIN NUHA ABDUH</span>
-    <span>GEOPHYSICAL ENGINEERING @ ITS</span>
-    <a href="#top">BACK TO TOP ↑</a>
-  </footer>
-
+  <footer class="footer"><span>&copy; 2026 Ulin Nuha — stay loud</span><span>Neo-brutalism / Archivo Black + Space Grotesk</span><a href="#top">Back to top &uarr;</a></footer>
   <script src="script.js"></script>
 </body>
 </html>
-
